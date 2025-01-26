@@ -1,4 +1,7 @@
 -- DDL (Data Definition Language): 데이터 구조 정의 (CREATE, ALTER, DROP)
+-- DML (Data Manipulation Language): 데이터 조작 (INSERT, UPDATE, DELETE, SELECT)
+-- DCL (Data Control Language): 권한 관리 (GRANT, REVOKE)
+-- TCL (Transaction Control Language): 트랜잭션 관리 (COMMIT, ROLLBACK)
 
 -- 테이블 생성(CREATE)
 CREATE TABLE 테이블이름 (
@@ -79,7 +82,5 @@ update students set age = 23 where name = '김영희'
 delete students where student_id == 3
 
 
--- DML (Data Manipulation Language): 데이터 조작 (INSERT, UPDATE, DELETE, SELECT)
--- DCL (Data Control Language): 권한 관리 (GRANT, REVOKE)
--- TCL (Transaction Control Language): 트랜잭션 관리 (COMMIT, ROLLBACK)
+
 
